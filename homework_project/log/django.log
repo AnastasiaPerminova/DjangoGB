@@ -1,0 +1,52 @@
+INFO 2024-02-14 01:49:59,512 autoreload 9488 20588 Watching for file changes with StatReloader
+WARNING 2024-02-14 01:50:11,821 log 9488 12136 Not Found: /task_1/tasks
+WARNING 2024-02-14 01:50:11,822 basehttp 9488 12136 "GET /task_1/tasks HTTP/1.1" 404 2450
+WARNING 2024-02-14 01:50:11,988 log 9488 4224 Not Found: /task_1/tasks
+WARNING 2024-02-14 01:50:11,989 basehttp 9488 4224 "GET /task_1/tasks HTTP/1.1" 404 2450
+INFO 2024-02-14 01:50:26,736 views 9488 12136 Main page accessed
+INFO 2024-02-14 01:50:26,737 basehttp 9488 12136 "GET / HTTP/1.1" 200 165
+INFO 2024-02-14 01:50:26,760 views 9488 4224 Main page accessed
+INFO 2024-02-14 01:50:26,761 basehttp 9488 4224 "GET / HTTP/1.1" 200 165
+INFO 2024-02-14 01:50:34,230 basehttp 9488 12136 "GET /about HTTP/1.1" 301 0
+INFO 2024-02-14 01:50:34,232 views 9488 20904 About page accessed
+INFO 2024-02-14 01:50:34,233 basehttp 9488 20904 "GET /about/ HTTP/1.1" 200 165
+INFO 2024-02-14 01:50:34,257 views 9488 4224 About page accessed
+INFO 2024-02-14 01:50:34,258 basehttp 9488 4224 "GET /about/ HTTP/1.1" 200 165
+INFO 2024-02-14 01:52:58,510 autoreload 9488 20588 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-14 01:52:58,822 autoreload 7540 6592 Watching for file changes with StatReloader
+INFO 2024-02-14 01:53:02,133 views 7540 6544 Main page accessed
+INFO 2024-02-14 01:53:02,134 basehttp 7540 6544 "GET / HTTP/1.1" 200 213
+INFO 2024-02-14 01:53:03,580 views 7540 10400 Main page accessed
+INFO 2024-02-14 01:53:03,581 basehttp 7540 10400 "GET / HTTP/1.1" 200 213
+INFO 2024-02-14 01:53:03,608 views 7540 6544 Main page accessed
+INFO 2024-02-14 01:53:03,608 basehttp 7540 6544 "GET / HTTP/1.1" 200 213
+INFO 2024-02-14 01:53:19,623 autoreload 7540 6592 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-14 01:53:19,968 autoreload 20396 11968 Watching for file changes with StatReloader
+INFO 2024-02-14 01:53:21,833 views 20396 6312 Main page accessed
+INFO 2024-02-14 01:53:21,834 basehttp 20396 6312 "GET / HTTP/1.1" 200 222
+INFO 2024-02-14 01:53:21,861 views 20396 21396 Main page accessed
+INFO 2024-02-14 01:53:21,862 basehttp 20396 21396 "GET / HTTP/1.1" 200 222
+INFO 2024-02-14 01:55:06,449 autoreload 20396 11968 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-14 01:55:06,807 autoreload 4492 17208 Watching for file changes with StatReloader
+INFO 2024-02-14 01:55:11,426 views 4492 4796 About page accessed
+INFO 2024-02-14 01:55:11,427 basehttp 4492 4796 "GET /about/ HTTP/1.1" 200 210
+INFO 2024-02-14 01:55:11,449 views 4492 3724 About page accessed
+INFO 2024-02-14 01:55:11,450 basehttp 4492 3724 "GET /about/ HTTP/1.1" 200 210
+INFO 2024-02-14 01:57:03,462 autoreload 4492 17208 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-14 01:57:03,791 autoreload 5528 18984 Watching for file changes with StatReloader
+INFO 2024-02-14 01:57:05,687 views 5528 9652 About page accessed
+INFO 2024-02-14 01:57:05,688 basehttp 5528 9652 "GET /about/ HTTP/1.1" 200 297
+INFO 2024-02-14 01:57:05,721 views 5528 12140 About page accessed
+INFO 2024-02-14 01:57:05,722 basehttp 5528 12140 "GET /about/ HTTP/1.1" 200 297
+INFO 2024-02-14 01:57:26,612 autoreload 5528 18984 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-14 01:57:27,021 autoreload 16244 18200 Watching for file changes with StatReloader
+INFO 2024-02-14 01:57:28,635 views 16244 17144 About page accessed
+INFO 2024-02-14 01:57:28,635 basehttp 16244 17144 "GET /about/ HTTP/1.1" 200 288
+INFO 2024-02-14 01:57:28,667 views 16244 19328 About page accessed
+INFO 2024-02-14 01:57:28,668 basehttp 16244 19328 "GET /about/ HTTP/1.1" 200 288
+INFO 2024-02-14 01:57:33,846 views 16244 19328 Main page accessed
+INFO 2024-02-14 01:57:33,847 basehttp 16244 19328 "GET / HTTP/1.1" 200 219
+INFO 2024-02-14 01:57:36,028 views 16244 19328 About page accessed
+INFO 2024-02-14 01:57:36,029 basehttp 16244 19328 "GET /about/ HTTP/1.1" 200 288
+INFO 2024-02-14 01:58:13,276 views 16244 10200 Main page accessed
+INFO 2024-02-14 01:58:13,276 basehttp 16244 10200 "GET /?target=form&frm=homescreen HTTP/1.1" 200 219
