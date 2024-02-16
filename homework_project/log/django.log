@@ -50,3 +50,925 @@ INFO 2024-02-14 01:57:36,028 views 16244 19328 About page accessed
 INFO 2024-02-14 01:57:36,029 basehttp 16244 19328 "GET /about/ HTTP/1.1" 200 288
 INFO 2024-02-14 01:58:13,276 views 16244 10200 Main page accessed
 INFO 2024-02-14 01:58:13,276 basehttp 16244 10200 "GET /?target=form&frm=homescreen HTTP/1.1" 200 219
+INFO 2024-02-16 11:04:59,508 autoreload 16124 2036 Watching for file changes with StatReloader
+INFO 2024-02-16 11:05:04,550 views 16124 344 Main page accessed
+INFO 2024-02-16 11:05:04,551 basehttp 16124 344 "GET / HTTP/1.1" 200 219
+WARNING 2024-02-16 11:05:04,781 log 16124 344 Not Found: /favicon.ico
+WARNING 2024-02-16 11:05:04,781 basehttp 16124 344 "GET /favicon.ico HTTP/1.1" 404 2851
+INFO 2024-02-16 11:05:05,070 views 16124 1004 Main page accessed
+INFO 2024-02-16 11:05:05,070 basehttp 16124 1004 "GET / HTTP/1.1" 200 219
+INFO 2024-02-16 11:05:24,077 basehttp 16124 344 "GET /customer_orders/1 HTTP/1.1" 301 0
+ERROR 2024-02-16 11:05:24,116 log 16124 19264 Internal Server Error: /customer_orders/1/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: customer_orders() got an unexpected keyword argument 'customer_id'
+ERROR 2024-02-16 11:05:24,117 basehttp 16124 19264 "GET /customer_orders/1/ HTTP/1.1" 500 61432
+ERROR 2024-02-16 11:05:24,233 log 16124 1004 Internal Server Error: /customer_orders/1/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: customer_orders() got an unexpected keyword argument 'customer_id'
+ERROR 2024-02-16 11:05:24,235 basehttp 16124 1004 "GET /customer_orders/1/ HTTP/1.1" 500 60487
+INFO 2024-02-16 11:06:22,678 autoreload 16124 2036 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 11:06:23,014 autoreload 13808 2596 Watching for file changes with StatReloader
+ERROR 2024-02-16 11:06:24,844 log 13808 18740 Internal Server Error: /customer_orders/1/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: customer_orders() got an unexpected keyword argument 'customer_id'
+ERROR 2024-02-16 11:06:24,845 basehttp 13808 18740 "GET /customer_orders/1/ HTTP/1.1" 500 61569
+ERROR 2024-02-16 11:06:24,915 log 13808 15352 Internal Server Error: /customer_orders/1/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: customer_orders() got an unexpected keyword argument 'customer_id'
+ERROR 2024-02-16 11:06:24,916 basehttp 13808 15352 "GET /customer_orders/1/ HTTP/1.1" 500 60487
+ERROR 2024-02-16 11:06:26,598 log 13808 18740 Internal Server Error: /customer_orders/1/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: customer_orders() got an unexpected keyword argument 'customer_id'
+ERROR 2024-02-16 11:06:26,599 basehttp 13808 18740 "GET /customer_orders/1/ HTTP/1.1" 500 61569
+ERROR 2024-02-16 11:06:26,660 log 13808 15352 Internal Server Error: /customer_orders/1/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: customer_orders() got an unexpected keyword argument 'customer_id'
+ERROR 2024-02-16 11:06:26,662 basehttp 13808 15352 "GET /customer_orders/1/ HTTP/1.1" 500 60487
+INFO 2024-02-16 11:07:04,632 autoreload 13808 2596 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 11:07:05,001 autoreload 18436 7072 Watching for file changes with StatReloader
+ERROR 2024-02-16 11:07:05,240 log 18436 17600 Internal Server Error: /customer_orders/1/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: customer_orders() got an unexpected keyword argument 'customer_id'
+ERROR 2024-02-16 11:07:05,241 basehttp 18436 17600 "GET /customer_orders/1/ HTTP/1.1" 500 61569
+ERROR 2024-02-16 11:07:05,304 log 18436 17108 Internal Server Error: /customer_orders/1/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: customer_orders() got an unexpected keyword argument 'customer_id'
+ERROR 2024-02-16 11:07:05,306 basehttp 18436 17108 "GET /customer_orders/1/ HTTP/1.1" 500 60487
+INFO 2024-02-16 11:07:31,019 autoreload 18436 7072 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 11:07:31,401 autoreload 10480 15232 Watching for file changes with StatReloader
+ERROR 2024-02-16 11:07:32,149 log 10480 18208 Internal Server Error: /customer_orders/1/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: customer_orders() got an unexpected keyword argument 'customer_id'
+ERROR 2024-02-16 11:07:32,150 basehttp 10480 18208 "GET /customer_orders/1/ HTTP/1.1" 500 61569
+ERROR 2024-02-16 11:07:32,210 log 10480 8696 Internal Server Error: /customer_orders/1/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: customer_orders() got an unexpected keyword argument 'customer_id'
+ERROR 2024-02-16 11:07:32,212 basehttp 10480 8696 "GET /customer_orders/1/ HTTP/1.1" 500 60487
+ERROR 2024-02-16 11:07:35,292 log 10480 18208 Internal Server Error: /customer_orders/1/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: customer_orders() got an unexpected keyword argument 'customer_id'
+ERROR 2024-02-16 11:07:35,293 basehttp 10480 18208 "GET /customer_orders/1/ HTTP/1.1" 500 61569
+ERROR 2024-02-16 11:07:35,360 log 10480 8696 Internal Server Error: /customer_orders/1/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: customer_orders() got an unexpected keyword argument 'customer_id'
+ERROR 2024-02-16 11:07:35,362 basehttp 10480 8696 "GET /customer_orders/1/ HTTP/1.1" 500 60487
+INFO 2024-02-16 11:08:01,563 autoreload 10480 15232 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 11:08:01,938 autoreload 9104 19404 Watching for file changes with StatReloader
+INFO 2024-02-16 11:08:02,606 basehttp 9104 5012 "GET /customer_orders/1/ HTTP/1.1" 200 586
+INFO 2024-02-16 11:08:02,654 basehttp 9104 12216 "GET /customer_orders/1/ HTTP/1.1" 200 586
+INFO 2024-02-16 11:08:38,302 autoreload 9104 19404 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\models.py changed, reloading.
+INFO 2024-02-16 11:08:38,854 autoreload 15032 18688 Watching for file changes with StatReloader
+INFO 2024-02-16 11:08:39,174 basehttp 15032 1732 "GET /customer_orders/1/ HTTP/1.1" 200 562
+INFO 2024-02-16 11:08:39,216 basehttp 15032 8896 "GET /customer_orders/1/ HTTP/1.1" 200 562
+INFO 2024-02-16 11:08:40,904 basehttp 15032 1732 "GET /order/2/ HTTP/1.1" 200 1110
+INFO 2024-02-16 11:08:40,928 basehttp 15032 8896 "GET /order/2/ HTTP/1.1" 200 1110
+INFO 2024-02-16 11:08:46,672 basehttp 15032 8896 "GET /customer_orders/1/ HTTP/1.1" 200 562
+INFO 2024-02-16 11:08:47,944 basehttp 15032 1732 "GET /order/4/ HTTP/1.1" 200 831
+INFO 2024-02-16 11:08:47,967 basehttp 15032 8896 "GET /order/4/ HTTP/1.1" 200 831
+INFO 2024-02-16 11:27:27,054 basehttp 15032 18948 "GET /customer_orders/1/ HTTP/1.1" 200 562
+INFO 2024-02-16 11:27:34,483 basehttp 15032 14016 "GET /customer_orders/2/ HTTP/1.1" 200 564
+INFO 2024-02-16 11:27:34,511 basehttp 15032 18948 "GET /customer_orders/2/ HTTP/1.1" 200 564
+INFO 2024-02-16 11:27:44,298 basehttp 15032 14016 "GET /customer_orders/8/ HTTP/1.1" 200 572
+INFO 2024-02-16 11:27:44,325 basehttp 15032 18948 "GET /customer_orders/8/ HTTP/1.1" 200 572
+INFO 2024-02-16 11:27:59,273 basehttp 15032 14016 "GET /customer_orders/9/ HTTP/1.1" 200 572
+INFO 2024-02-16 11:27:59,303 basehttp 15032 18948 "GET /customer_orders/9/ HTTP/1.1" 200 572
+INFO 2024-02-16 11:28:08,179 basehttp 15032 14016 "GET /customer_orders/10/ HTTP/1.1" 200 574
+INFO 2024-02-16 11:28:08,204 basehttp 15032 18948 "GET /customer_orders/10/ HTTP/1.1" 200 574
+WARNING 2024-02-16 11:28:16,749 log 15032 14016 Not Found: /customer_orders/12/
+WARNING 2024-02-16 11:28:16,750 basehttp 15032 14016 "GET /customer_orders/12/ HTTP/1.1" 404 2856
+WARNING 2024-02-16 11:28:16,781 log 15032 18948 Not Found: /customer_orders/12/
+WARNING 2024-02-16 11:28:16,781 basehttp 15032 18948 "GET /customer_orders/12/ HTTP/1.1" 404 2856
+INFO 2024-02-16 11:28:19,212 basehttp 15032 18948 "GET /customer_orders/10/ HTTP/1.1" 200 574
+INFO 2024-02-16 11:28:39,476 basehttp 15032 14016 "GET /order/100 HTTP/1.1" 301 0
+WARNING 2024-02-16 11:28:39,485 log 15032 17876 Not Found: /order/100/
+WARNING 2024-02-16 11:28:39,486 basehttp 15032 17876 "GET /order/100/ HTTP/1.1" 404 3014
+WARNING 2024-02-16 11:28:39,515 log 15032 18948 Not Found: /order/100/
+WARNING 2024-02-16 11:28:39,515 basehttp 15032 18948 "GET /order/100/ HTTP/1.1" 404 3014
+INFO 2024-02-16 11:29:19,088 basehttp 15032 18948 "GET /customer_orders/10/ HTTP/1.1" 200 574
+INFO 2024-02-16 11:29:21,187 basehttp 15032 17876 "GET /order/48/ HTTP/1.1" 200 1579
+INFO 2024-02-16 11:29:21,212 basehttp 15032 18948 "GET /order/48/ HTTP/1.1" 200 1579
+INFO 2024-02-16 11:29:22,772 basehttp 15032 18948 "GET /customer_orders/10/ HTTP/1.1" 200 574
+INFO 2024-02-16 11:29:24,264 basehttp 15032 17876 "GET /order/46/ HTTP/1.1" 200 1297
+INFO 2024-02-16 11:29:24,288 basehttp 15032 18948 "GET /order/46/ HTTP/1.1" 200 1297
+INFO 2024-02-16 11:31:51,414 autoreload 13252 3832 Watching for file changes with StatReloader
+INFO 2024-02-16 11:31:54,182 basehttp 13252 11960 "GET /order/46/ HTTP/1.1" 200 1021
+INFO 2024-02-16 11:31:54,318 basehttp 13252 18652 "GET /order/46/ HTTP/1.1" 200 1021
+INFO 2024-02-16 11:32:01,061 basehttp 13252 11960 "GET /customer_orders/10/ HTTP/1.1" 200 497
+INFO 2024-02-16 11:32:01,091 basehttp 13252 18652 "GET /customer_orders/10/ HTTP/1.1" 200 497
+INFO 2024-02-16 11:32:03,960 basehttp 13252 11960 "GET /order/45/ HTTP/1.1" 200 1579
+INFO 2024-02-16 11:32:03,983 basehttp 13252 18652 "GET /order/45/ HTTP/1.1" 200 1579
+INFO 2024-02-16 11:32:06,282 basehttp 13252 18652 "GET /customer_orders/10/ HTTP/1.1" 200 497
+INFO 2024-02-16 11:32:09,330 basehttp 13252 11960 "GET /order/48/ HTTP/1.1" 200 2041
+INFO 2024-02-16 11:32:09,353 basehttp 13252 18652 "GET /order/48/ HTTP/1.1" 200 2041
+INFO 2024-02-16 11:32:10,411 basehttp 13252 18652 "GET /customer_orders/10/ HTTP/1.1" 200 497
+INFO 2024-02-16 11:33:03,516 basehttp 13252 11960 "GET /customer_orders/10/ HTTP/1.1" 200 713
+INFO 2024-02-16 11:33:03,547 basehttp 13252 18652 "GET /customer_orders/10/ HTTP/1.1" 200 713
+INFO 2024-02-16 11:34:34,096 basehttp 13252 18652 "GET /order/48/ HTTP/1.1" 200 2041
+INFO 2024-02-16 11:34:38,194 basehttp 13252 18652 "GET /customer_orders/10/ HTTP/1.1" 200 809
+INFO 2024-02-16 11:34:40,527 basehttp 13252 11960 "GET /customer_orders/10/ HTTP/1.1" 200 809
+INFO 2024-02-16 11:34:40,555 basehttp 13252 18652 "GET /customer_orders/10/ HTTP/1.1" 200 809
+INFO 2024-02-16 11:34:42,898 basehttp 13252 11960 "GET /order/45/ HTTP/1.1" 200 1579
+INFO 2024-02-16 11:34:42,915 basehttp 13252 18652 "GET /order/45/ HTTP/1.1" 200 1579
+INFO 2024-02-16 11:34:45,249 basehttp 13252 18652 "GET /customer_orders/10/ HTTP/1.1" 200 809
+INFO 2024-02-16 11:34:46,521 basehttp 13252 11960 "GET /order/48/ HTTP/1.1" 200 2041
+INFO 2024-02-16 11:34:46,542 basehttp 13252 18652 "GET /order/48/ HTTP/1.1" 200 2041
+INFO 2024-02-16 11:34:48,296 basehttp 13252 18652 "GET /customer_orders/10/ HTTP/1.1" 200 809
+INFO 2024-02-16 11:34:51,284 basehttp 13252 11960 "GET /customer_orders/10/ HTTP/1.1" 200 809
+INFO 2024-02-16 11:34:51,305 basehttp 13252 18652 "GET /customer_orders/10/ HTTP/1.1" 200 809
+INFO 2024-02-16 11:34:52,519 basehttp 13252 18652 "GET /order/46/ HTTP/1.1" 200 1021
+INFO 2024-02-16 11:34:53,597 basehttp 13252 11960 "GET /order/46/ HTTP/1.1" 200 1021
+INFO 2024-02-16 11:34:53,619 basehttp 13252 18652 "GET /order/46/ HTTP/1.1" 200 1021
+INFO 2024-02-16 11:34:54,301 basehttp 13252 18652 "GET /customer_orders/10/ HTTP/1.1" 200 809
+INFO 2024-02-16 11:34:55,295 basehttp 13252 18652 "GET /order/46/ HTTP/1.1" 200 1021
+INFO 2024-02-16 11:37:33,820 basehttp 13252 18652 "GET /customer_orders/10/ HTTP/1.1" 200 857
+INFO 2024-02-16 11:37:34,537 basehttp 13252 18652 "GET /order/46/ HTTP/1.1" 200 1021
+INFO 2024-02-16 11:37:36,318 basehttp 13252 18652 "GET /customer_orders/10/ HTTP/1.1" 200 857
+INFO 2024-02-16 11:37:36,964 basehttp 13252 18652 "GET /customer_orders/9/ HTTP/1.1" 200 854
+INFO 2024-02-16 11:37:45,127 basehttp 13252 11960 "GET /customer_orders/8/ HTTP/1.1" 200 686
+INFO 2024-02-16 11:37:45,152 basehttp 13252 18652 "GET /customer_orders/8/ HTTP/1.1" 200 686
+INFO 2024-02-16 11:37:47,837 basehttp 13252 11960 "GET /order/38/ HTTP/1.1" 200 1664
+INFO 2024-02-16 11:37:47,860 basehttp 13252 18652 "GET /order/38/ HTTP/1.1" 200 1664
+INFO 2024-02-16 11:37:50,327 basehttp 13252 18652 "GET /customer_orders/8/ HTTP/1.1" 200 686
+INFO 2024-02-16 11:40:36,333 autoreload 13252 3832 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 11:40:36,870 autoreload 13500 6656 Watching for file changes with StatReloader
+INFO 2024-02-16 11:41:11,456 autoreload 13500 6656 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 11:41:11,791 autoreload 5288 11784 Watching for file changes with StatReloader
+INFO 2024-02-16 11:51:04,020 autoreload 5288 11784 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 11:51:04,457 autoreload 9500 2096 Watching for file changes with StatReloader
+INFO 2024-02-16 11:55:42,491 basehttp 9500 18832 "GET /customer_products/8/ HTTP/1.1" 200 2868
+INFO 2024-02-16 11:55:42,522 basehttp 9500 13912 "GET /customer_products/8/ HTTP/1.1" 200 2868
+INFO 2024-02-16 11:56:35,206 autoreload 9500 2096 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\models.py changed, reloading.
+INFO 2024-02-16 11:56:35,648 autoreload 6204 1880 Watching for file changes with StatReloader
+INFO 2024-02-16 11:56:35,835 basehttp 6204 5852 "GET /customer_products/8/ HTTP/1.1" 200 2868
+INFO 2024-02-16 11:56:35,865 basehttp 6204 14320 "GET /customer_products/8/ HTTP/1.1" 200 2868
+INFO 2024-02-16 11:56:36,760 basehttp 6204 5852 "GET /customer_products/8/ HTTP/1.1" 200 2868
+INFO 2024-02-16 11:56:36,786 basehttp 6204 14320 "GET /customer_products/8/ HTTP/1.1" 200 2868
+INFO 2024-02-16 11:56:40,933 basehttp 6204 5852 "GET /customer_products/8/ HTTP/1.1" 200 2868
+INFO 2024-02-16 11:56:40,970 basehttp 6204 14320 "GET /customer_products/8/ HTTP/1.1" 200 2868
+INFO 2024-02-16 11:56:41,918 basehttp 6204 14320 "GET /customer_orders/8/ HTTP/1.1" 200 686
+INFO 2024-02-16 11:56:43,358 basehttp 6204 5852 "GET /order/38/ HTTP/1.1" 200 1154
+INFO 2024-02-16 11:56:43,380 basehttp 6204 14320 "GET /order/38/ HTTP/1.1" 200 1154
+INFO 2024-02-16 11:56:44,483 basehttp 6204 14320 "GET /customer_orders/8/ HTTP/1.1" 200 686
+INFO 2024-02-16 11:56:45,601 basehttp 6204 14320 "GET /order/38/ HTTP/1.1" 200 1154
+INFO 2024-02-16 11:56:47,075 basehttp 6204 14320 "GET /customer_orders/8/ HTTP/1.1" 200 686
+INFO 2024-02-16 11:56:47,565 basehttp 6204 14320 "GET /customer_orders/9/ HTTP/1.1" 200 854
+INFO 2024-02-16 11:56:48,244 basehttp 6204 14320 "GET /customer_orders/8/ HTTP/1.1" 200 686
+INFO 2024-02-16 11:56:48,738 basehttp 6204 14320 "GET /customer_orders/2/ HTTP/1.1" 200 1180
+INFO 2024-02-16 11:56:57,638 basehttp 6204 5852 "GET /customer_products/8/ HTTP/1.1" 200 2868
+INFO 2024-02-16 11:56:57,662 basehttp 6204 14320 "GET /customer_products/8/ HTTP/1.1" 200 2868
+INFO 2024-02-16 11:57:17,186 autoreload 18564 11180 Watching for file changes with StatReloader
+INFO 2024-02-16 11:57:19,115 basehttp 18564 19216 "GET /customer_products/8/ HTTP/1.1" 200 2868
+INFO 2024-02-16 11:57:19,144 basehttp 18564 18792 "GET /customer_products/8/ HTTP/1.1" 200 2868
+ERROR 2024-02-16 11:58:05,316 log 18564 19216 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 72, in customer_products
+    return render(request, 'homework_app/customer_products.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\defaulttags.py", line 860, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'products.item()'
+ERROR 2024-02-16 11:58:05,319 basehttp 18564 19216 "GET /customer_products/8/ HTTP/1.1" 500 196677
+ERROR 2024-02-16 11:58:05,471 log 18564 18792 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 72, in customer_products
+    return render(request, 'homework_app/customer_products.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\defaulttags.py", line 860, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'products.item()'
+ERROR 2024-02-16 11:58:05,477 basehttp 18564 18792 "GET /customer_products/8/ HTTP/1.1" 500 195595
+ERROR 2024-02-16 11:58:27,321 log 18564 19216 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 72, in customer_products
+    return render(request, 'homework_app/customer_products.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\defaulttags.py", line 860, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'products.item()'
+ERROR 2024-02-16 11:58:27,324 basehttp 18564 19216 "GET /customer_products/8/ HTTP/1.1" 500 195540
+ERROR 2024-02-16 11:58:27,437 log 18564 18792 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 72, in customer_products
+    return render(request, 'homework_app/customer_products.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\defaulttags.py", line 860, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'products.item()'
+ERROR 2024-02-16 11:58:27,439 basehttp 18564 18792 "GET /customer_products/8/ HTTP/1.1" 500 194458
+INFO 2024-02-16 12:00:03,437 basehttp 18564 19216 "GET /customer_products/8/ HTTP/1.1" 200 2081
+INFO 2024-02-16 12:00:03,473 basehttp 18564 18792 "GET /customer_products/8/ HTTP/1.1" 200 2081
+INFO 2024-02-16 12:00:29,231 basehttp 18564 19216 "GET /customer_products/8/ HTTP/1.1" 200 1820
+INFO 2024-02-16 12:00:29,265 basehttp 18564 18792 "GET /customer_products/8/ HTTP/1.1" 200 1820
+INFO 2024-02-16 12:00:38,272 basehttp 18564 19216 "GET /customer_products/8/ HTTP/1.1" 200 1907
+INFO 2024-02-16 12:00:38,301 basehttp 18564 18792 "GET /customer_products/8/ HTTP/1.1" 200 1907
+INFO 2024-02-16 12:01:22,086 basehttp 18564 19216 "GET /customer_products/8/ HTTP/1.1" 200 2023
+INFO 2024-02-16 12:01:22,117 basehttp 18564 18792 "GET /customer_products/8/ HTTP/1.1" 200 2023
+INFO 2024-02-16 12:07:17,143 autoreload 12528 14480 Watching for file changes with StatReloader
+INFO 2024-02-16 12:07:24,772 views 12528 14344 Main page accessed
+INFO 2024-02-16 12:07:24,774 basehttp 12528 14344 "GET / HTTP/1.1" 200 219
+INFO 2024-02-16 12:07:24,841 views 12528 19380 Main page accessed
+INFO 2024-02-16 12:07:24,842 basehttp 12528 19380 "GET / HTTP/1.1" 200 219
+INFO 2024-02-16 12:07:30,447 basehttp 12528 14344 "GET /customer_orders/8/ HTTP/1.1" 200 2216
+INFO 2024-02-16 12:07:30,473 basehttp 12528 19380 "GET /customer_orders/8/ HTTP/1.1" 200 2216
+INFO 2024-02-16 12:07:43,194 basehttp 12528 14344 "GET /customer_products/8/ HTTP/1.1" 200 5417
+INFO 2024-02-16 12:07:43,229 basehttp 12528 19380 "GET /customer_products/8/ HTTP/1.1" 200 5417
+INFO 2024-02-16 12:13:00,785 basehttp 12528 8924 "GET /customer_products/8/ HTTP/1.1" 200 5932
+INFO 2024-02-16 12:13:00,848 basehttp 12528 19860 "GET /customer_products/8/ HTTP/1.1" 200 5932
+INFO 2024-02-16 12:17:32,334 autoreload 12528 14480 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:17:32,856 autoreload 6772 6412 Watching for file changes with StatReloader
+INFO 2024-02-16 12:22:18,674 autoreload 6772 6412 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:22:19,019 autoreload 19744 20172 Watching for file changes with StatReloader
+INFO 2024-02-16 12:35:27,673 autoreload 19744 20172 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:35:28,069 autoreload 8936 20948 Watching for file changes with StatReloader
+INFO 2024-02-16 12:36:55,443 autoreload 8936 20948 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:36:55,820 autoreload 19840 17928 Watching for file changes with StatReloader
+INFO 2024-02-16 12:43:35,263 autoreload 19840 17928 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:43:35,690 autoreload 20536 14248 Watching for file changes with StatReloader
+INFO 2024-02-16 12:46:09,670 views 20536 21104 Main page accessed
+INFO 2024-02-16 12:46:09,672 basehttp 20536 21104 "GET / HTTP/1.1" 200 219
+INFO 2024-02-16 12:46:09,860 views 20536 20124 Main page accessed
+INFO 2024-02-16 12:46:09,861 basehttp 20536 20124 "GET / HTTP/1.1" 200 219
+ERROR 2024-02-16 12:46:26,265 log 20536 21104 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 77, in customer_products
+    timedelta = datetime.now() - value
+                ~~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'datetime.date'
+ERROR 2024-02-16 12:46:26,266 basehttp 20536 21104 "GET /customer_products/8/ HTTP/1.1" 500 77807
+ERROR 2024-02-16 12:46:26,420 log 20536 20124 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 77, in customer_products
+    timedelta = datetime.now() - value
+                ~~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'datetime.date'
+ERROR 2024-02-16 12:46:26,422 basehttp 20536 20124 "GET /customer_products/8/ HTTP/1.1" 500 76862
+INFO 2024-02-16 12:47:12,174 autoreload 20536 14248 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:47:12,673 autoreload 21128 10544 Watching for file changes with StatReloader
+ERROR 2024-02-16 12:47:18,182 log 21128 20544 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 77, in customer_products
+    timedelta = datetime.now() - datetime.date(value)
+                                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: descriptor 'date' for 'datetime.datetime' objects doesn't apply to a 'datetime.date' object
+ERROR 2024-02-16 12:47:18,183 basehttp 21128 20544 "GET /customer_products/8/ HTTP/1.1" 500 78132
+ERROR 2024-02-16 12:47:18,278 log 21128 3940 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 77, in customer_products
+    timedelta = datetime.now() - datetime.date(value)
+                                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: descriptor 'date' for 'datetime.datetime' objects doesn't apply to a 'datetime.date' object
+ERROR 2024-02-16 12:47:18,280 basehttp 21128 3940 "GET /customer_products/8/ HTTP/1.1" 500 77050
+INFO 2024-02-16 12:48:07,899 autoreload 21128 10544 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:48:08,472 autoreload 21920 21924 Watching for file changes with StatReloader
+INFO 2024-02-16 12:48:44,333 autoreload 21920 21924 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:48:44,889 autoreload 21144 21364 Watching for file changes with StatReloader
+INFO 2024-02-16 12:49:18,575 autoreload 21144 21364 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:49:19,061 autoreload 9136 18636 Watching for file changes with StatReloader
+INFO 2024-02-16 12:49:36,084 autoreload 9136 18636 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:49:36,682 autoreload 2940 17928 Watching for file changes with StatReloader
+ERROR 2024-02-16 12:49:42,172 log 2940 18636 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 77, in customer_products
+    timedelta = datetime.now() - date.fromisoformat(value)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2024-02-16 12:49:42,174 basehttp 2940 18636 "GET /customer_products/8/ HTTP/1.1" 500 77788
+ERROR 2024-02-16 12:49:42,290 log 2940 22028 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 77, in customer_products
+    timedelta = datetime.now() - date.fromisoformat(value)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2024-02-16 12:49:42,292 basehttp 2940 22028 "GET /customer_products/8/ HTTP/1.1" 500 76706
+ERROR 2024-02-16 12:49:43,595 log 2940 18636 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 77, in customer_products
+    timedelta = datetime.now() - date.fromisoformat(value)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2024-02-16 12:49:43,596 basehttp 2940 18636 "GET /customer_products/8/ HTTP/1.1" 500 77788
+ERROR 2024-02-16 12:49:43,714 log 2940 22028 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 77, in customer_products
+    timedelta = datetime.now() - date.fromisoformat(value)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2024-02-16 12:49:43,714 basehttp 2940 22028 "GET /customer_products/8/ HTTP/1.1" 500 76706
+ERROR 2024-02-16 12:49:44,437 log 2940 18636 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 77, in customer_products
+    timedelta = datetime.now() - date.fromisoformat(value)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2024-02-16 12:49:44,438 basehttp 2940 18636 "GET /customer_products/8/ HTTP/1.1" 500 77788
+ERROR 2024-02-16 12:49:44,552 log 2940 22028 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 77, in customer_products
+    timedelta = datetime.now() - date.fromisoformat(value)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2024-02-16 12:49:44,553 basehttp 2940 22028 "GET /customer_products/8/ HTTP/1.1" 500 76706
+INFO 2024-02-16 12:50:44,776 autoreload 2940 17928 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:50:45,335 autoreload 9152 21832 Watching for file changes with StatReloader
+ERROR 2024-02-16 12:50:51,092 log 9152 21548 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 77, in customer_products
+    timedelta = datetime.today() - value
+                ~~~~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'datetime.date'
+ERROR 2024-02-16 12:50:51,094 basehttp 9152 21548 "GET /customer_products/8/ HTTP/1.1" 500 77952
+ERROR 2024-02-16 12:50:51,228 log 9152 19908 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 77, in customer_products
+    timedelta = datetime.today() - value
+                ~~~~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'datetime.date'
+ERROR 2024-02-16 12:50:51,230 basehttp 9152 19908 "GET /customer_products/8/ HTTP/1.1" 500 76870
+ERROR 2024-02-16 12:50:51,876 log 9152 21548 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 77, in customer_products
+    timedelta = datetime.today() - value
+                ~~~~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'datetime.date'
+ERROR 2024-02-16 12:50:51,878 basehttp 9152 21548 "GET /customer_products/8/ HTTP/1.1" 500 77952
+ERROR 2024-02-16 12:50:51,995 log 9152 19908 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 77, in customer_products
+    timedelta = datetime.today() - value
+                ~~~~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'datetime.date'
+ERROR 2024-02-16 12:50:51,996 basehttp 9152 19908 "GET /customer_products/8/ HTTP/1.1" 500 76870
+INFO 2024-02-16 12:53:54,753 autoreload 9152 21832 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:53:55,464 autoreload 22364 5264 Watching for file changes with StatReloader
+INFO 2024-02-16 12:54:08,604 views 22364 18888 Main page accessed
+INFO 2024-02-16 12:54:08,604 basehttp 22364 18888 "GET / HTTP/1.1" 200 219
+INFO 2024-02-16 12:54:08,730 views 22364 16124 Main page accessed
+INFO 2024-02-16 12:54:08,730 basehttp 22364 16124 "GET / HTTP/1.1" 200 219
+INFO 2024-02-16 12:54:13,948 basehttp 22364 18888 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:54:14,010 basehttp 22364 16124 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:54:50,692 autoreload 22364 5264 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:54:51,241 autoreload 21300 21024 Watching for file changes with StatReloader
+INFO 2024-02-16 12:54:52,946 basehttp 21300 22172 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:54:53,007 basehttp 21300 22076 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:54:54,584 basehttp 21300 22172 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:54:54,649 basehttp 21300 22076 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:55:51,996 autoreload 21300 21024 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:55:52,626 autoreload 21792 21372 Watching for file changes with StatReloader
+INFO 2024-02-16 12:55:53,016 basehttp 21792 22420 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:55:53,083 basehttp 21792 12488 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:55:53,964 basehttp 21792 22420 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:55:54,036 basehttp 21792 12488 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:56:13,122 autoreload 21792 21372 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:56:13,792 autoreload 9164 9792 Watching for file changes with StatReloader
+INFO 2024-02-16 12:56:14,638 basehttp 9164 22112 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:56:14,704 basehttp 9164 21972 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:57:18,070 autoreload 19860 21800 Watching for file changes with StatReloader
+INFO 2024-02-16 12:57:21,539 basehttp 19860 22360 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:57:21,616 basehttp 19860 20096 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:57:38,688 autoreload 19860 21800 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:57:39,285 autoreload 13292 21660 Watching for file changes with StatReloader
+ERROR 2024-02-16 12:57:39,801 log 13292 6888 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 79, in customer_products
+    timedelta = datetime.today() - value
+                ~~~~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'datetime.date'
+ERROR 2024-02-16 12:57:39,803 basehttp 13292 6888 "GET /customer_products/8/ HTTP/1.1" 500 77933
+ERROR 2024-02-16 12:57:39,930 log 13292 18888 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 79, in customer_products
+    timedelta = datetime.today() - value
+                ~~~~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'datetime.date'
+ERROR 2024-02-16 12:57:39,932 basehttp 13292 18888 "GET /customer_products/8/ HTTP/1.1" 500 76851
+INFO 2024-02-16 12:58:09,805 autoreload 13292 21660 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:58:10,228 autoreload 3940 9444 Watching for file changes with StatReloader
+ERROR 2024-02-16 12:58:13,636 log 3940 21672 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 79, in customer_products
+    timedelta = datetime.today() - value
+                ~~~~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'datetime.date'
+ERROR 2024-02-16 12:58:13,638 basehttp 3940 21672 "GET /customer_products/8/ HTTP/1.1" 500 77924
+ERROR 2024-02-16 12:58:13,784 log 3940 20852 Internal Server Error: /customer_products/8/
+Traceback (most recent call last):
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py", line 79, in customer_products
+    timedelta = datetime.today() - value
+                ~~~~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'datetime.date'
+ERROR 2024-02-16 12:58:13,786 basehttp 3940 20852 "GET /customer_products/8/ HTTP/1.1" 500 76842
+INFO 2024-02-16 12:58:32,925 autoreload 3940 9444 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:58:33,601 autoreload 22216 22208 Watching for file changes with StatReloader
+INFO 2024-02-16 12:58:33,926 basehttp 22216 2992 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:58:33,995 basehttp 22216 5848 "GET /customer_products/8/ HTTP/1.1" 200 360
+INFO 2024-02-16 12:58:43,528 autoreload 22216 22208 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-16 12:58:44,167 autoreload 8936 15272 Watching for file changes with StatReloader
+INFO 2024-02-16 12:58:44,481 basehttp 8936 14888 "GET /customer_products/8/ HTTP/1.1" 200 5174
+INFO 2024-02-16 12:58:44,580 basehttp 8936 3928 "GET /customer_products/8/ HTTP/1.1" 200 5174
+INFO 2024-02-16 12:59:09,701 basehttp 8936 14888 "GET /customer_products/10/ HTTP/1.1" 200 3472
+INFO 2024-02-16 12:59:09,882 basehttp 8936 3928 "GET /customer_products/10/ HTTP/1.1" 200 3472
+INFO 2024-02-16 12:59:18,325 basehttp 8936 14888 "GET /customer_products/1/ HTTP/1.1" 200 3119
+INFO 2024-02-16 12:59:18,418 basehttp 8936 3928 "GET /customer_products/1/ HTTP/1.1" 200 3119
+INFO 2024-02-16 12:59:31,295 basehttp 8936 14888 "GET /customer_products/2/ HTTP/1.1" 200 3267
+INFO 2024-02-16 12:59:31,372 basehttp 8936 3928 "GET /customer_products/2/ HTTP/1.1" 200 3267
+INFO 2024-02-16 12:59:58,964 basehttp 8936 14888 "GET /customer_products/3/ HTTP/1.1" 200 3338
+INFO 2024-02-16 12:59:59,051 basehttp 8936 3928 "GET /customer_products/3/ HTTP/1.1" 200 3338
+INFO 2024-02-16 13:00:13,859 basehttp 8936 14888 "GET /customer_products/8/ HTTP/1.1" 200 5174
+INFO 2024-02-16 13:00:13,936 basehttp 8936 3928 "GET /customer_products/8/ HTTP/1.1" 200 5174
+INFO 2024-02-16 13:01:44,219 autoreload 15272 20824 Watching for file changes with StatReloader
+INFO 2024-02-16 13:01:51,654 views 15272 22844 Main page accessed
+INFO 2024-02-16 13:01:51,656 basehttp 15272 22844 "GET / HTTP/1.1" 200 219
+INFO 2024-02-16 13:01:51,741 views 15272 22712 Main page accessed
+INFO 2024-02-16 13:01:51,743 basehttp 15272 22712 "GET / HTTP/1.1" 200 219
+INFO 2024-02-16 13:01:55,367 basehttp 15272 22844 "GET /customer_products/8/ HTTP/1.1" 200 1074
+INFO 2024-02-16 13:01:55,427 basehttp 15272 22712 "GET /customer_products/8/ HTTP/1.1" 200 1074
+INFO 2024-02-16 13:01:57,068 basehttp 15272 22844 "GET /customer_products/8/ HTTP/1.1" 200 1074
+INFO 2024-02-16 13:01:57,106 basehttp 15272 22712 "GET /customer_products/8/ HTTP/1.1" 200 1074
+INFO 2024-02-16 13:01:57,814 basehttp 15272 22844 "GET /customer_products/8/ HTTP/1.1" 200 1074
+INFO 2024-02-16 13:01:57,854 basehttp 15272 22712 "GET /customer_products/8/ HTTP/1.1" 200 1074
+INFO 2024-02-16 13:04:18,855 basehttp 15272 22844 "GET /customer_products/8/ HTTP/1.1" 200 3145
+INFO 2024-02-16 13:04:18,935 basehttp 15272 22712 "GET /customer_products/8/ HTTP/1.1" 200 3145
+INFO 2024-02-16 13:04:22,698 basehttp 15272 22844 "GET /customer_products/8/ HTTP/1.1" 200 3145
+INFO 2024-02-16 13:04:22,755 basehttp 15272 22712 "GET /customer_products/8/ HTTP/1.1" 200 3145
+INFO 2024-02-16 13:04:27,261 basehttp 15272 22844 "GET /customer_products/8/ HTTP/1.1" 200 2214
+INFO 2024-02-16 13:04:27,320 basehttp 15272 22712 "GET /customer_products/8/ HTTP/1.1" 200 2214
+INFO 2024-02-16 13:04:28,382 basehttp 15272 22844 "GET /customer_products/8/ HTTP/1.1" 200 2214
+INFO 2024-02-16 13:04:28,433 basehttp 15272 22712 "GET /customer_products/8/ HTTP/1.1" 200 2214
+INFO 2024-02-16 13:04:31,031 views 15272 22712 Main page accessed
+INFO 2024-02-16 13:04:31,031 basehttp 15272 22712 "GET / HTTP/1.1" 200 219
+INFO 2024-02-16 13:04:31,938 basehttp 15272 22712 "GET /customer_products/8/ HTTP/1.1" 200 2214
+INFO 2024-02-16 13:04:35,018 basehttp 15272 22844 "GET /customer_products/86 HTTP/1.1" 301 0
+WARNING 2024-02-16 13:04:35,030 log 15272 6848 Not Found: /customer_products/86/
+WARNING 2024-02-16 13:04:35,031 basehttp 15272 6848 "GET /customer_products/86/ HTTP/1.1" 404 3270
+WARNING 2024-02-16 13:04:35,076 log 15272 22712 Not Found: /customer_products/86/
+WARNING 2024-02-16 13:04:35,077 basehttp 15272 22712 "GET /customer_products/86/ HTTP/1.1" 404 3270
+INFO 2024-02-16 13:04:42,353 basehttp 15272 6848 "GET /customer_products/6/ HTTP/1.1" 200 2003
+INFO 2024-02-16 13:04:42,420 basehttp 15272 22712 "GET /customer_products/6/ HTTP/1.1" 200 2003
+INFO 2024-02-16 13:05:37,155 basehttp 15272 6848 "GET /customer_products/15/ HTTP/1.1" 200 2997
+INFO 2024-02-16 13:05:37,223 basehttp 15272 22712 "GET /customer_products/15/ HTTP/1.1" 200 2997
+INFO 2024-02-16 13:05:49,046 basehttp 15272 6848 "GET /customer_products/2/ HTTP/1.1" 200 2151
+INFO 2024-02-16 13:05:49,105 basehttp 15272 22712 "GET /customer_products/2/ HTTP/1.1" 200 2151
+INFO 2024-02-16 13:09:58,922 autoreload 17316 6816 Watching for file changes with StatReloader
+INFO 2024-02-16 13:09:59,673 basehttp 17316 20460 "GET /customer_products/2/ HTTP/1.1" 200 644
+INFO 2024-02-16 13:09:59,756 basehttp 17316 23224 "GET /customer_products/2/ HTTP/1.1" 200 644
+INFO 2024-02-16 13:10:01,927 basehttp 17316 20460 "GET /customer_products/2/ HTTP/1.1" 200 644
+INFO 2024-02-16 13:10:01,964 basehttp 17316 23224 "GET /customer_products/2/ HTTP/1.1" 200 644
+INFO 2024-02-16 13:10:02,746 basehttp 17316 20460 "GET /customer_products/2/ HTTP/1.1" 200 644
+INFO 2024-02-16 13:10:02,781 basehttp 17316 23224 "GET /customer_products/2/ HTTP/1.1" 200 644
+INFO 2024-02-16 13:10:03,396 basehttp 17316 20460 "GET /customer_products/2/ HTTP/1.1" 200 644
+INFO 2024-02-16 13:10:03,429 basehttp 17316 23224 "GET /customer_products/2/ HTTP/1.1" 200 644
+INFO 2024-02-16 13:10:23,183 basehttp 17316 20460 "GET /customer_orders/2/ HTTP/1.1" 200 1180
+INFO 2024-02-16 13:10:23,215 basehttp 17316 23224 "GET /customer_orders/2/ HTTP/1.1" 200 1180
+INFO 2024-02-16 13:10:26,116 basehttp 17316 20460 "GET /order/21/ HTTP/1.1" 200 243
+INFO 2024-02-16 13:10:26,141 basehttp 17316 23224 "GET /order/21/ HTTP/1.1" 200 243
+INFO 2024-02-16 13:10:27,506 basehttp 17316 23224 "GET /customer_orders/2/ HTTP/1.1" 200 1180
+INFO 2024-02-16 13:10:28,252 basehttp 17316 20460 "GET /order/39/ HTTP/1.1" 200 304
+INFO 2024-02-16 13:10:28,306 basehttp 17316 23224 "GET /order/39/ HTTP/1.1" 200 304
+INFO 2024-02-16 13:10:29,591 basehttp 17316 23224 "GET /customer_orders/2/ HTTP/1.1" 200 1180
+INFO 2024-02-16 13:10:30,332 basehttp 17316 20460 "GET /order/57/ HTTP/1.1" 200 304
+INFO 2024-02-16 13:10:30,383 basehttp 17316 23224 "GET /order/57/ HTTP/1.1" 200 304
+INFO 2024-02-16 13:10:31,406 basehttp 17316 23224 "GET /customer_orders/2/ HTTP/1.1" 200 1180
+INFO 2024-02-16 13:10:32,116 basehttp 17316 20460 "GET /order/3/ HTTP/1.1" 200 241
+INFO 2024-02-16 13:10:32,169 basehttp 17316 23224 "GET /order/3/ HTTP/1.1" 200 241
+INFO 2024-02-16 13:10:34,636 basehttp 17316 23224 "GET /customer_orders/2/ HTTP/1.1" 200 1180
+INFO 2024-02-16 13:10:50,843 basehttp 17316 23224 "GET /customer_products/2/ HTTP/1.1" 200 999
+INFO 2024-02-16 13:10:52,057 basehttp 17316 20460 "GET /customer_products/2/ HTTP/1.1" 200 999
+INFO 2024-02-16 13:10:52,107 basehttp 17316 23224 "GET /customer_products/2/ HTTP/1.1" 200 999
+INFO 2024-02-16 13:11:04,029 basehttp 17316 20460 "GET /customer_products/1/ HTTP/1.1" 200 1281
+INFO 2024-02-16 13:11:04,074 basehttp 17316 23224 "GET /customer_products/1/ HTTP/1.1" 200 1281
+INFO 2024-02-16 13:11:47,005 basehttp 17316 20460 "GET /customer_products/8/ HTTP/1.1" 200 1707
+INFO 2024-02-16 13:11:47,062 basehttp 17316 23224 "GET /customer_products/8/ HTTP/1.1" 200 1707
+INFO 2024-02-16 13:11:56,893 basehttp 17316 20460 "GET /customer_products/10/ HTTP/1.1" 200 1281
+INFO 2024-02-16 13:11:56,947 basehttp 17316 23224 "GET /customer_products/10/ HTTP/1.1" 200 1281

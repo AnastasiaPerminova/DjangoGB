@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}{{author}}{% endblock %}
+
+{% block content %}
+<h1> Заказы {{customer}}</h1>
+<ul>
+    {%for order in orders%}
+    <tr>
+        <h4><a href="{% url 'order_full' order.id %}">Номер заказа:{{ order.id }}
+            Общая сумма:{{order.total_price}} Оформлен: {{order.order_date}}</a></h4>
+    </tr>
+    {% endfor %}
+</ul>
+
+{% endblock %}

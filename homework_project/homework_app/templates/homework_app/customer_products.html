@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}{{author}}{% endblock %}
+
+{% block content %}
+<h1> Товары, купленные {{customer}}</h1>
+<ul>
+    <h3> За последние 7 дней</h3>
+   {% for key, value in pr_week.items %}
+        <tr><td>{{ key }} - {{ value }}<br></td></tr>
+    {% endfor %}
+        <h3> За последний месяц</h3>
+   {% for key, value in pr_month.items %}
+        <tr><td>{{ key }} - {{ value }}<br></td></tr>
+    {% endfor %}
+        <h3> За последний год</h3>
+   {% for key, value in pr_year.items %}
+        <tr><td>{{ key }} - {{ value }}<br></td></tr>
+    {% endfor %}
+</ul>
+
+{% endblock %}

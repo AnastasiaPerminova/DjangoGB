@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}{{order.id}} {% endblock %}
+
+{% block content %}
+<h1>{{order.customer}}</h1>
+<h1>Заказ {{order.id}}</h1>
+ {%for product in products%}
+    <tr>
+        <h4>{{ product }}</h4>
+    </tr>
+    {% endfor %}
+
+
+
+{% endblock %}

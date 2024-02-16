@@ -16,6 +16,7 @@ class Command(BaseCommand):
                                 address=f'Address{i}')
             customer.save()
 
+        for i in range(1, count*10):
             product = Product(name=f'Product{i}',
                               description=f'Description{i}: bla bla bla...',
                               price=i * 100,
