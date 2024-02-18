@@ -24,6 +24,7 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2)
     quantity = models.IntegerField(default=0)
     addition_date = models.DateField(auto_now_add=True)
+    image = models.ImageField(blank=True, upload_to='media')
 
     def __repr__(self):
         return f'{self.pk} - {self.name} - {self.description} - {self.price} - {self.quantity}'

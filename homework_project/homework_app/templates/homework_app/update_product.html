@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}{{product}} {% endblock %}
+
+{% block content %}
+<h1>{{product.name}}</h1>
+{% if product.image %}
+ <img src="{{product.image.url}}" width="400" >
+{% endif %}
+<h2>Описание товара:</h2>
+<p>{{product.description}}</p>
+<h2>Количество товара:</h2>
+<p>{{product.quantity}}</p>
+<h2>Цена товара:</h2>
+<p>{{product.price}}</p>
+<h2>Дата добавления:</h2>
+<p>{{product.addition_date}}
+
+
+</p>
+
+<h4>Редактировать товар</h4>
+<form action="" method="post" class="post-form" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form.as_p}}
+<input type="submit" value="Отправить">
+</form>
+{% endblock %}

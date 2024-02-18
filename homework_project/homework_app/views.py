@@ -1,10 +1,14 @@
 from datetime import datetime, timedelta, date
 
+from django.core.files.storage import FileSystemStorage
 from django.shortcuts import render
 import logging
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
+
+from .form import ProductFormUpdate
 from .models import Customer, Order, Product
+
 logger = logging.getLogger(__name__)
 
 
@@ -61,7 +65,7 @@ def order_full(request, order_id):
 def customer_products(request, customer_id):
     customer = get_object_or_404(Customer, pk=customer_id)
     orders = Order.objects.filter(customer=customer)
-    customer_products ={}
+    customer_products = {}
     for order in orders:
         products = order.product.all()
         for product in products:
@@ -91,5 +95,34 @@ def customer_products(request, customer_id):
                'pr_year': products_this_year
                }
     return render(request, 'homework_app/customer_products.html', context)
+
+
+def update_product(request, product_id):
+    product = Product.objects.filter(pk=product_id).first()
+    if request.method == 'POST':
+        form = ProductFormUpdate(request.POST, request.FILES)
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            description = form.cleaned_data['description']
+            quantity = form.cleaned_data['quantity']
+            price = form.cleaned_data['price']
+            image = form.cleaned_data['image']
+            if name:
+                product.name = name
+            if description:
+                product.description = description
+            if quantity:
+                product.quantity = quantity
+            if price:
+                product.price = price
+            if image:
+                product.image = image
+            product.save()
+
+    else:
+        form = ProductFormUpdate()
+
+    return render(request, 'homework_app/update_product.html', {'form': form, 'product': product})
+
 
 
