@@ -87,9 +87,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'tasita$default',
-        'USER': 'tasita1987',
+        'USER': 'tasita',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-        'HOST': 'tasita1987.mysql.pythonanywhere-services.com',
+        'HOST': 'tasita.mysql.pythonanywhere-services.com',
         'OPTIONS': {
             'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
             'charset': 'utf8mb4',
