@@ -6231,3 +6231,100 @@ INFO 2024-02-19 03:15:34,116 basehttp 19408 2020 "POST /admin/homework_app/produ
 INFO 2024-02-19 03:15:34,162 basehttp 19408 2020 "GET /admin/homework_app/product/ HTTP/1.1" 200 62003
 INFO 2024-02-19 03:15:34,192 basehttp 19408 2020 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 INFO 2024-02-19 03:15:34,283 basehttp 19408 9916 "GET /admin/homework_app/product/ HTTP/1.1" 200 62003
+INFO 2024-02-19 03:18:20,199 basehttp 19408 2020 "GET /admin/homework_app/product/9/change/ HTTP/1.1" 200 11915
+INFO 2024-02-19 03:18:20,229 basehttp 19408 2020 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-02-19 03:18:20,283 basehttp 19408 9916 "GET /admin/homework_app/product/9/change/ HTTP/1.1" 200 11915
+INFO 2024-02-19 22:51:58,583 autoreload 7896 4448 Watching for file changes with StatReloader
+INFO 2024-02-19 22:52:17,195 autoreload 7896 4448 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-19 22:52:17,497 autoreload 10928 1432 Watching for file changes with StatReloader
+INFO 2024-02-19 22:52:18,742 views 10928 7056 Main page accessed
+INFO 2024-02-19 22:52:18,744 basehttp 10928 7056 "GET / HTTP/1.1" 200 219
+INFO 2024-02-19 22:52:18,829 views 10928 3960 Main page accessed
+INFO 2024-02-19 22:52:18,830 basehttp 10928 3960 "GET / HTTP/1.1" 200 219
+WARNING 2024-02-19 22:52:18,994 log 10928 7056 Not Found: /favicon.ico
+WARNING 2024-02-19 22:52:18,994 basehttp 10928 7056 "GET /favicon.ico HTTP/1.1" 404 3398
+INFO 2024-02-19 22:57:56,214 autoreload 10928 1432 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-19 22:57:56,559 autoreload 13400 10012 Watching for file changes with StatReloader
+INFO 2024-02-19 22:57:59,573 views 13400 10112 Main page accessed
+INFO 2024-02-19 22:57:59,575 basehttp 13400 10112 "GET / HTTP/1.1" 200 471
+INFO 2024-02-19 22:57:59,756 views 13400 2148 Main page accessed
+INFO 2024-02-19 22:57:59,756 basehttp 13400 2148 "GET / HTTP/1.1" 200 471
+INFO 2024-02-19 22:58:01,446 views 13400 10112 About page accessed
+INFO 2024-02-19 22:58:01,446 basehttp 13400 10112 "GET /about/ HTTP/1.1" 200 299
+INFO 2024-02-19 22:58:01,469 views 13400 2148 About page accessed
+INFO 2024-02-19 22:58:01,470 basehttp 13400 2148 "GET /about/ HTTP/1.1" 200 299
+INFO 2024-02-19 22:58:03,466 views 13400 2148 Main page accessed
+INFO 2024-02-19 22:58:03,467 basehttp 13400 2148 "GET / HTTP/1.1" 200 471
+WARNING 2024-02-19 22:58:04,366 log 13400 10112 Not Found: /customer_orders/<int:customer_id>/
+WARNING 2024-02-19 22:58:04,366 basehttp 13400 10112 "GET /customer_orders/%3Cint:customer_id%3E/ HTTP/1.1" 404 3483
+WARNING 2024-02-19 22:58:04,398 log 13400 2148 Not Found: /customer_orders/<int:customer_id>/
+WARNING 2024-02-19 22:58:04,399 basehttp 13400 2148 "GET /customer_orders/%3Cint:customer_id%3E/ HTTP/1.1" 404 3483
+INFO 2024-02-19 22:58:12,569 basehttp 13400 10112 "GET /customer_orders/3/ HTTP/1.1" 200 514
+INFO 2024-02-19 22:58:12,593 basehttp 13400 2148 "GET /customer_orders/3/ HTTP/1.1" 200 514
+WARNING 2024-02-19 22:58:14,557 log 13400 2148 Not Found: /customer_orders/<int:customer_id>/
+WARNING 2024-02-19 22:58:14,558 basehttp 13400 2148 "GET /customer_orders/%3Cint:customer_id%3E/ HTTP/1.1" 404 3483
+INFO 2024-02-19 22:58:15,111 views 13400 2148 Main page accessed
+INFO 2024-02-19 22:58:15,112 basehttp 13400 2148 "GET / HTTP/1.1" 200 471
+INFO 2024-02-19 23:02:04,173 autoreload 13400 10012 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-19 23:02:04,495 autoreload 10936 8876 Watching for file changes with StatReloader
+INFO 2024-02-19 23:02:07,500 views 10936 8468 Main page accessed
+INFO 2024-02-19 23:02:07,501 basehttp 10936 8468 "GET / HTTP/1.1" 200 765
+INFO 2024-02-19 23:02:07,568 views 10936 10952 Main page accessed
+INFO 2024-02-19 23:02:07,569 basehttp 10936 10952 "GET / HTTP/1.1" 200 765
+WARNING 2024-02-19 23:02:11,452 log 10936 8468 Not Found: /order/<int:order_id>/
+WARNING 2024-02-19 23:02:11,452 basehttp 10936 8468 "GET /order/%3Cint:order_id%3E/ HTTP/1.1" 404 3444
+WARNING 2024-02-19 23:02:11,482 log 10936 10952 Not Found: /order/<int:order_id>/
+WARNING 2024-02-19 23:02:11,483 basehttp 10936 10952 "GET /order/%3Cint:order_id%3E/ HTTP/1.1" 404 3444
+INFO 2024-02-19 23:02:20,137 basehttp 10936 8468 "GET /order/6/ HTTP/1.1" 200 363
+INFO 2024-02-19 23:02:20,162 basehttp 10936 10952 "GET /order/6/ HTTP/1.1" 200 363
+WARNING 2024-02-19 23:02:27,934 log 10936 10952 Not Found: /order/<int:order_id>/
+WARNING 2024-02-19 23:02:27,935 basehttp 10936 10952 "GET /order/%3Cint:order_id%3E/ HTTP/1.1" 404 3444
+INFO 2024-02-19 23:02:29,433 views 10936 10952 Main page accessed
+INFO 2024-02-19 23:02:29,433 basehttp 10936 10952 "GET / HTTP/1.1" 200 765
+WARNING 2024-02-19 23:02:30,788 log 10936 8468 Not Found: /customer_products/<int:customer_id>/
+WARNING 2024-02-19 23:02:30,789 basehttp 10936 8468 "GET /customer_products/%3Cint:customer_id%3E/ HTTP/1.1" 404 3489
+WARNING 2024-02-19 23:02:30,818 log 10936 10952 Not Found: /customer_products/<int:customer_id>/
+WARNING 2024-02-19 23:02:30,819 basehttp 10936 10952 "GET /customer_products/%3Cint:customer_id%3E/ HTTP/1.1" 404 3489
+INFO 2024-02-19 23:02:37,218 basehttp 10936 8468 "GET /customer_products/7/ HTTP/1.1" 200 1208
+INFO 2024-02-19 23:02:37,250 basehttp 10936 10952 "GET /customer_products/7/ HTTP/1.1" 200 1208
+WARNING 2024-02-19 23:02:55,695 log 10936 10952 Not Found: /customer_products/<int:customer_id>/
+WARNING 2024-02-19 23:02:55,695 basehttp 10936 10952 "GET /customer_products/%3Cint:customer_id%3E/ HTTP/1.1" 404 3489
+INFO 2024-02-19 23:02:56,200 views 10936 10952 Main page accessed
+INFO 2024-02-19 23:02:56,201 basehttp 10936 10952 "GET / HTTP/1.1" 200 765
+WARNING 2024-02-19 23:02:57,375 log 10936 8468 Not Found: /'update_product/<int:product_id>/
+WARNING 2024-02-19 23:02:57,376 basehttp 10936 8468 "GET /'update_product/%3Cint:product_id%3E/ HTTP/1.1" 404 3495
+WARNING 2024-02-19 23:02:57,402 log 10936 10952 Not Found: /'update_product/<int:product_id>/
+WARNING 2024-02-19 23:02:57,403 basehttp 10936 10952 "GET /'update_product/%3Cint:product_id%3E/ HTTP/1.1" 404 3495
+WARNING 2024-02-19 23:03:04,906 log 10936 8468 Not Found: /'update_product/45/
+WARNING 2024-02-19 23:03:04,906 basehttp 10936 8468 "GET /'update_product/45/ HTTP/1.1" 404 3437
+WARNING 2024-02-19 23:03:04,935 log 10936 10952 Not Found: /'update_product/45/
+WARNING 2024-02-19 23:03:04,936 basehttp 10936 10952 "GET /'update_product/45/ HTTP/1.1" 404 3437
+INFO 2024-02-19 23:03:18,732 autoreload 10936 8876 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-19 23:03:19,122 autoreload 12408 5164 Watching for file changes with StatReloader
+WARNING 2024-02-19 23:03:19,395 log 12408 9620 Not Found: /'update_product/45/
+WARNING 2024-02-19 23:03:19,395 basehttp 12408 9620 "GET /'update_product/45/ HTTP/1.1" 404 3437
+WARNING 2024-02-19 23:03:19,425 log 12408 7704 Not Found: /'update_product/45/
+WARNING 2024-02-19 23:03:19,426 basehttp 12408 7704 "GET /'update_product/45/ HTTP/1.1" 404 3437
+WARNING 2024-02-19 23:03:26,746 log 12408 7704 Not Found: /'update_product/<int:product_id>/
+WARNING 2024-02-19 23:03:26,747 basehttp 12408 7704 "GET /'update_product/%3Cint:product_id%3E/ HTTP/1.1" 404 3495
+INFO 2024-02-19 23:03:27,925 views 12408 7704 Main page accessed
+INFO 2024-02-19 23:03:27,926 basehttp 12408 7704 "GET / HTTP/1.1" 200 764
+WARNING 2024-02-19 23:03:29,141 log 12408 9620 Not Found: /'update_product/<int:product_id>/
+WARNING 2024-02-19 23:03:29,141 basehttp 12408 9620 "GET /'update_product/%3Cint:product_id%3E/ HTTP/1.1" 404 3495
+WARNING 2024-02-19 23:03:29,167 log 12408 7704 Not Found: /'update_product/<int:product_id>/
+WARNING 2024-02-19 23:03:29,168 basehttp 12408 7704 "GET /'update_product/%3Cint:product_id%3E/ HTTP/1.1" 404 3495
+INFO 2024-02-19 23:03:38,007 autoreload 8408 8424 Watching for file changes with StatReloader
+INFO 2024-02-19 23:03:41,326 views 8408 6736 Main page accessed
+INFO 2024-02-19 23:03:41,328 basehttp 8408 6736 "GET / HTTP/1.1" 200 764
+INFO 2024-02-19 23:03:41,395 views 8408 10012 Main page accessed
+INFO 2024-02-19 23:03:41,396 basehttp 8408 10012 "GET / HTTP/1.1" 200 764
+WARNING 2024-02-19 23:03:42,630 log 8408 6736 Not Found: /update_product/<int:product_id>/
+WARNING 2024-02-19 23:03:42,630 basehttp 8408 6736 "GET /update_product/%3Cint:product_id%3E/ HTTP/1.1" 404 3477
+WARNING 2024-02-19 23:03:42,659 log 8408 10012 Not Found: /update_product/<int:product_id>/
+WARNING 2024-02-19 23:03:42,659 basehttp 8408 10012 "GET /update_product/%3Cint:product_id%3E/ HTTP/1.1" 404 3477
+INFO 2024-02-19 23:03:53,809 basehttp 8408 6736 "GET /update_product/5/ HTTP/1.1" 200 1526
+INFO 2024-02-19 23:03:53,847 basehttp 8408 10012 "GET /update_product/5/ HTTP/1.1" 200 1526
+INFO 2024-02-19 23:07:25,478 autoreload 8408 8424 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_app\views.py changed, reloading.
+INFO 2024-02-19 23:07:26,044 autoreload 13400 3324 Watching for file changes with StatReloader
+INFO 2024-02-19 23:25:15,067 autoreload 13400 3324 C:\Users\Tasita\Desktop\Программирование\Django_GB_Seminars\homework_project\homework_project\settings.py changed, reloading.
+INFO 2024-02-19 23:25:15,450 autoreload 1620 18420 Watching for file changes with StatReloader

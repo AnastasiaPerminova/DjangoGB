@@ -25,6 +25,13 @@ def main(request):
     <body>
       <h1>Django. GeekBrains. Seminars. </h1>
       <h2>Homework_project.</h2>
+    <ul>
+      <li><a href='about/'>О нас</a></li>
+      <li><a href="order/<int:order_id>/">Заказ по ID заказа </a></li>
+      <li><a href="customer_orders/<int:customer_id>/">Заказы покупателя по ID покупателя</a></li>
+      <li><a href="customer_products/<int:customer_id>/">Товары, заказанные покупателем по ID покупателя</a></li>
+      <li><a href="update_product/<int:product_id>/">Обновить инофрмацию о товаре по ID</a></li>
+    </ul>
     </body>
     </html>'''
 
@@ -42,7 +49,7 @@ def about(request):
     <body>
       <h1>It's a page about my django homework_project. </h1>
       
-      <p> I've just started to learn Django and homework_1 has been done.</p>
+      <p> I've just started to learn Django and the last one homework has been done.</p>
     </body>
     </html>'''
     return HttpResponse(text)
